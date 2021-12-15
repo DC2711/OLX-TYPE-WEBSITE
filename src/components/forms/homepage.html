@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>OLX</title>
+
+<style>
+  body {
+    background-color: beige;
+  }
+  </style>
+
+<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+   
+  
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">
+    <div class='nav-brand'> 
+       
+        <img src='https://images.tv9marathi.com/wp-content/uploads/2019/12/21195735/OLX.jpg' alt='Official logo' width='25px' height='25px'> 
+      </a> 
+     </div>  </a>
+  <a href="#home" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Categories">Categories<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Books</a>
+      <a href="#" class="w3-bar-item w3-button">Electronics</a>
+      
+    </div>
+  </div>
+  
+ </div>
+
+ 
+</div>
+
+
+<!-- Home Container -->
+<div class="w3-container w3-padding-64 w3-center" id="home">
+<h2>Latest Items</h2>
+
+<div class="card">
+    <img src="book" alt="Book" style="width:100%">
+    <h3>RD Sharma</h3>
+    <p class="price">Rs.500</p>
+    <p>In very good condition</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+
+
+
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      
+      
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>Mumbai, India</p>
+      <p>9876543210</p>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  
+  <p>Powered by <a href="www.olx.in" target="_blank">olx.in</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+
+</script>
+
+</body>
+
+
+</html>

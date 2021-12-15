@@ -1,0 +1,49 @@
+.page3 {
+    background-color: beige;
+    
+
+    border: 3px solid black;
+    width: max-content;
+    padding: 75px;
+    position:absolute ; 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+  
+}
+
+#pname, #age, #pimage ,#add , #num{
+    font-size:larger;
+    padding:20px;
+    
+
+}
+
+.input{
+    border-top-color: rgb(68, 96, 97);
+    border-left-color: rgb(68, 96, 97);
+    border-right-color: rgb(68, 96, 97);
+    border-bottom-color: rgb(68, 96, 97);
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    block-size: 200px;
+    border: 2px solid #000;
+    
+    
+}
+
+h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+h4{
+    text-decoration: underline;
+}
